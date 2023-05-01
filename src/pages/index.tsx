@@ -3,6 +3,9 @@ import { useRouter } from "next/router";
 import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
+import { NextjsLogo } from "@/assets/svg";
+import Title from "@/components/Title";
+
 export default function Home() {
   const { t } = useTranslation();
 
@@ -12,7 +15,8 @@ export default function Home() {
 
   return (
     <main className="flex flex-col items-center justify-center h-screen gap-5">
-      <h1 className="text-5xl font-bold">{t("common.title")}</h1>
+      <NextjsLogo className="w-auto h-10" />
+      <Title text={t("common.title")} />
       <Link href="/" locale={changeTo}>
         <button>{t("change-locale", { changeTo })}</button>
       </Link>
