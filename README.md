@@ -43,16 +43,16 @@ The following commands are included:
 ```
 ...
 ├── ...
-├── svg           	// .svg files for generating SVG components
-├── e2e             // End-to-end test files
-├── public          // Publicly hosted assets (i.e. favicon)
+├── svg				// .svg files for generating SVG components
+├── e2e				// End-to-end test files
+├── public			// Publicly hosted assets (i.e. favicon)
 ├── src
 │   ├── assets		// Compiled assets
 │   ├── components	// React components
 │   ├── css			// global css files
-│   ├── hooks       // Project hooks
-│   ├── lib         // Helper functions
-│   ├── locales     // Localisation files
+│   ├── hooks		// Project hooks
+│   ├── lib			// Helper functions
+│   ├── locales		// Localisation files
 │   ├── pages		// Next JS Pages
 ├── ...
 ```
