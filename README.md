@@ -12,16 +12,16 @@
 	Use the command `yarn dev` to run the project in dev server running on port `3000`
 
 ## 🧐 What's inside
-- [Commands](##commands)
-- [Directory structure](##directory-structure)
-- [Pages](###pages)
-- [Components](###components)
-- [Testing](##testing)
-- [Styling](##styling)
-- [Localisation](##localisation)
-- [SVG generation](##svg-generation)
-- [Included libraries](##included-libraries)
-- [Default headers](##default-headers)
+- [Commands](#user-content--commands)
+- [Directory structure](#user-content--directory-structure)
+- [Pages](#user-content--pages)
+- [Components](#user-content--components)
+- [Testing](#user-content--testing)
+- [Styling](#user-content--styling)
+- [Localisation](#user-content--localisation)
+- [SVG generation](#user-content--svg-generation)
+- [Included libraries](#user-content--included-libraries)
+- [Default headers](#user-content--default-headers)
 
 ## ⚙️ Commands
 
@@ -121,14 +121,11 @@ SVG files can be placed in `/svg`, the generated output is placed in `src/assets
 
 ### @tanstack/react-query
 
-By default, React Query is configured with a `staleTime` of 5 minutes and will retry a request a maximum of 3
-times if the request failed due to a network error.
+We use @tanstack/react-query for fetching and manipulating server-side data. During development we use the `<ReactQueryDevtools/>` component for visualize all of the inner workings of React Query and will likely save you hours of debugging.
 
 ### react-hook-form
 
-Previous versions of this scaffold shipped with [Formik](https://github.com/jaredpalmer/formik). However, time
-has learned us that [react-hook-form](https://react-hook-form.com/) is a much better fit for us and our
-projects.
+React Hook Form is a lightweight library that aims to provide a powerful and flexible solution for form validation and management. We use [react-hook-form](https://react-hook-form.com/) instead of [Formik](https://github.com/jaredpalmer/formik) because of the flexibility and lightweight setup.
 
 ## ✅ Default headers
 
