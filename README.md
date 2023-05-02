@@ -49,9 +49,9 @@ The following commands are included:
 ├── src
 │   ├── assets			// Compiled assets
 │   ├── components		// React components
-│   ├── css				// global css files
+│   ├── css			// global css files
 │   ├── hooks			// Project hooks
-│   ├── lib				// Helper functions
+│   ├── lib			// Helper functions
 │   ├── locales			// Localisation files
 │   ├── pages			// Next JS Pages
 ├── ...
