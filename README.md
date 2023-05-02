@@ -47,13 +47,13 @@ The following commands are included:
 ├── e2e				// End-to-end test files
 ├── public			// Publicly hosted assets (i.e. favicon)
 ├── src
-│   ├── assets		// Compiled assets
-│   ├── components	// React components
-│   ├── css			// global css files
-│   ├── hooks		// Project hooks
-│   ├── lib			// Helper functions
-│   ├── locales		// Localisation files
-│   ├── pages		// Next JS Pages
+│   ├── assets			// Compiled assets
+│   ├── components		// React components
+│   ├── css				// global css files
+│   ├── hooks			// Project hooks
+│   ├── lib				// Helper functions
+│   ├── locales			// Localisation files
+│   ├── pages			// Next JS Pages
 ├── ...
 ```
 ### Pages
