@@ -54,6 +54,8 @@ The following commands are included:
 │   ├── lib			// Helper functions
 │   ├── locales			// Localisation files
 │   ├── pages			// Next JS Pages
+│   ├── store			// Global state management
+│   ├── types			// Typescript types
 ├── ...
 ```
 ### Pages
