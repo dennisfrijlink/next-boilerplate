@@ -6,7 +6,7 @@
 	npx create next-app --example=https://github.com/dennisfrijlink/next-boilerplate
 	```
 2. **Install dependencies**
-	We use Yarn as package manager. Call `yarn` inside the project directory to install the packages listed in the `package.json`
+	This boilerplate uses Yarn as package manager. Call `yarn` inside the project directory to install the packages listed in the `package.json`
 
 3. **Run dev server**
 	Use the command `yarn dev` to run the project in dev server running on port `3000`
