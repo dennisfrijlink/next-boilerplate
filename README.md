@@ -69,8 +69,7 @@ _**Note**: These page extensions also apply to `_app`, `_document` and `middlewa
 Using page extensions allows us to keep certain components close to the pages they're used on.
 
 ### Components
-React components that are used only on a few pages and/or are very specific to those pages, should be placed in a
-`/component` directory near their page.
+React components that are used only on a few pages and/or are very specific to those pages, should be placed in `/components/[PAGE_NAME]`
 
 For example:
 
@@ -78,11 +77,9 @@ For example:
 ...
 ├── ...
 ├── src
-│   ├── pages
-│   │   ├── about-us
-│   │   │   ├── components
-│   │   │   │   └── AboutCard.tsx  👈 The component
-│   │   │   └── index.page.tsx  👈 The page component
+│   ├── components
+│   │   ├── about-us 👈 The name based on src/pages/about-us.tsx
+│   │   │   └── AboutCard.tsx  👈 The page specific component
 ├── ...
 ```
 
