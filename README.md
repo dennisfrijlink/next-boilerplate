@@ -1,4 +1,8 @@
 
+<p align="center">
+  <img src="/public/next.svg" width="350" title="Next.js Boilerplate">
+</p>
+
 ## ✨ Quick start
 1.  **Create new project**
     Run the following command to start a project:
