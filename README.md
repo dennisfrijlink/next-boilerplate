@@ -1,4 +1,8 @@
 
+<p align="center">
+  <img src="/public/next.svg" width="350" title="Next.js Boilerplate">
+</p>
+
 ## ✨ Quick start
 1.  **Create new project**
     Run the following command to start a project:
@@ -69,8 +73,7 @@ _**Note**: These page extensions also apply to `_app`, `_document` and `middlewa
 Using page extensions allows us to keep certain components close to the pages they're used on.
 
 ### Components
-React components that are used only on a few pages and/or are very specific to those pages, should be placed in a
-`/component` directory near their page.
+React components that are used only on a few pages and/or are very specific to those pages, should be placed in `/components/[PAGE_NAME]`
 
 For example:
 
@@ -78,11 +81,9 @@ For example:
 ...
 ├── ...
 ├── src
-│   ├── pages
-│   │   ├── about-us
-│   │   │   ├── components
-│   │   │   │   └── AboutCard.tsx  👈 The component
-│   │   │   └── index.page.tsx  👈 The page component
+│   ├── components
+│   │   ├── about-us 👈 The name based on src/pages/about-us.tsx
+│   │   │   └── AboutCard.tsx  👈 The page specific component
 ├── ...
 ```
 
@@ -99,11 +100,9 @@ Some examples of base components are: `<Input />`, `<Checkbox />`, `<TextArea />
 
 End-to-end tests are set up with [Playwright](https://playwright.dev/) and located in `/e2e`.
 
-On CI, a clean backend instance is spun up to make sure the environment is always the same.
-
 ## 💎 Styling
 
-[TailwindCSS](https://tailwindcss.com/) is used for styling. Tailwind CSS is a utility-first CSS framework designed to enable users to create applications faster and easier. You can use utility classes to control the layout, color, spacing, typography, shadows, and more to create a completely custom component design — without leaving your HTML/JSX or writing a single line of custom CSS.
+[TailwindCSS](https://tailwindcss.com/) is used for styling. Tailwind CSS is a utility-first CSS framework designed to enable users to create applications faster and easier. You can use utility classes to control the layout, color, spacing, typography, shadows, and more to create a completely custom component design — without leaving your HTML/JSX or writing a single line of custom CSS. For conditionally joining classNames we use [Classnames](https://www.npmjs.com/package/classnames)
 
 ## 🌎 Localisation
 
